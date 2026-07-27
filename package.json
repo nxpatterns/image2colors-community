@@ -1,0 +1,26 @@
+{
+  "author": "github.com/nxpatterns",
+  "description": "Community repository for the Image2Colors.com website.",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "image-to-colors",
+    "theme",
+    "color",
+    "colour",
+    "colours",
+    "colors",
+    "generator",
+    "color-generator",
+    "colour-generator",
+    "theme-generator",
+    "UI",
+    "palette",
+    "color-palette"
+  ],
+  "license": "MIT",
+  "name": "image2colors.com",
+  "type": "module",
+  "version": "1.1.6"
+}

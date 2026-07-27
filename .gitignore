@@ -1,0 +1,75 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+
+# Generated WASM binary (rebuilt via npm run asbuild)
+src/wasm/*.wasm
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Angular & SSH Keys (.local)
+.angular
+.locals
+
+
+# Python virtualenv is not used in this repo (conda only)
+.venv/
+
+# Local volume simulation (replaces Hetzner volume mount in local dev)
+local-volume/
+
+# Local env overrides (never commit secrets)
+.env.local
+.env
+
+# Some AI Memory and cache files
+.aider*
+.gitnexus
+.nx
+.understand-anything/
+
+.vscode/sessions.json
+/.vscode/sessions.json
+./.vscode/sessions.json
+
+
+docs/backups
+assets/example-fotos
+assets/favicon
+reports/playwright
+reports/test-results
