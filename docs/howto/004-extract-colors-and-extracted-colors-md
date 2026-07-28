@@ -1,0 +1,32 @@
+# HowTo 004: Extract Colors and Read the Result Panel
+This guide explains what happens when you click **Extract Colors**.
+
+## Two valid extraction flows
+1. **With selection**: You brushed an area first.
+2. **Without selection**: You did not brush anything.
+
+Both are valid.
+
+## Important behavior (no selection)
+If no pixels are selected, the app still extracts colors from the **whole image**.
+You get a short snackbar info message to make this clear.
+
+## Step-by-step
+1. Load an image.
+2. (Optional) Paint an area with Brush.
+3. Click **Extract Colors**.
+4. Look at the **Extracted Colors** panel on the right.
+
+## What you should see in the panel
+- Color swatches with hex values
+- Copy mode controls (**Single** / **Multi**)
+- CSS prefix input
+- Export buttons
+
+## Screenshots
+![Extract without selection and snackbar](../../assets/screenshots/04-extract-without-selection-snackbar.png)
+![Extracted colors panel](../../assets/screenshots/06-extracted-colors-panel.png)
+
+## Common mistakes
+- **“No selection” message appears**: This is normal. Extraction still works on the full image.
+- **No colors shown**: Check that an image is loaded, then try again.
