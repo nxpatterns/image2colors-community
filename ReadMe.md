@@ -33,6 +33,8 @@ To make that easy, you have a few tools:
 
 If you mark nothing, the app uses the whole image. Your upload if you brought one, and the demo image if you did not.
 
+That is why, when you press **Extract Colors** without having painted anything, a small note slides in to let you know the whole image is going into the mix, every last pixel. It is not a warning, and it is not a mistake. Reading the entire picture is a perfectly good way to work. We only tap you on the shoulder to say the other door is open too: paint one or more areas, and from then on only the pixels inside them, and their colors, are counted.
+
 ## Choose how colors should be extracted
 
 Here is a fair question: **why three modes at all?**
@@ -57,39 +59,67 @@ There is no wrong choice here either. Fewer colors ask you to commit. More color
 
 ## Generate and review your palette
 
-Click **Extract Colors**. Your swatches appear in the result panel. Nothing here is final. Keep selecting, adjusting, and extracting until the palette feels right to you.
+Click **Extract Colors** and watch your swatches appear in the result panel. Nothing here is set in stone. Repaint a little, switch the mode, change the count, and extract again. Most palettes get better on the second or third try, once your eye tells you what was missing. Keep going until it feels right to you, not until it looks finished on paper.
 
 ## Copy and export your result
 
-Copy a single color with a click, or export the whole palette once you are happy with it. You can export as:
+Once your palette is on screen, there are really two things you might want: to grab a single color in a hurry, or to carry the whole set away with you. The app keeps those two apart with a small mode switch, marked by a leaf icon.
 
-- CSS
-- JSON
-- CSV
-- PNG
-- SVG
-- PDF
+**Single copy** is the default, the single-leaf icon. Stay here when you just want one color. Click any swatch and its hex value jumps straight to your clipboard, with a little flash to confirm it landed.
 
-For CSS, you can set your own variable prefix, so the names drop straight into your project without a rename.
+Switch to **Multi copy**, the icon with several leaves, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
+
+As soon as you have two or more colors selected in Multi copy, a **Show selected** button appears. Press it and the grid narrows down to just your chosen colors, sitting side by side so you can feel how they work together. Press **Show all** to bring the full palette back. Nothing is lost along the way, you are only changing what you look at.
+
+When it is time to leave with your colors, you have two doors, and they behave a little differently on purpose.
+
+**Copy** is for pulling colors into your code right now. Click **Copy CSS** and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
+
+**Export** is for saving the palette as a file, and export always takes the complete set of extracted colors, never just your selection. Pick the format that fits where the colors are headed:
+
+- CSS, variables you can paste straight into a stylesheet
+- JSON, for code, scripts, and build tools
+- CSV, for spreadsheets, sorting, and quick sharing
+- PNG, a picture of the palette to drop into a doc or a chat
+- SVG, crisp swatches that stay sharp at any size, ready for design tools
+- PDF, a clean sheet to print or hand to a client
+
+This split, where copy follows your selection and export takes everything, is simply what felt natural to us. If enough of you would rather it worked another way, say so. It is your tool, and this is an easy thing to change.
+
+### The CSS prefix
+
+One small comfort for the people who live in stylesheets. Before you copy or export CSS, you can set a **prefix** for the variable names. Whatever you type becomes the front of every variable, and the app numbers them for you in order.
+
+Type `brand`, for example, and you get:
+
+```css
+:root {
+  --brand-1: #7A9E7E;
+  --brand-2: #3B5B72;
+  --brand-3: #E8D8C3;
+}
+```
+
+So the colors arrive already speaking your project's language, and there is nothing to rename afterward. Leave the field empty and the app falls back to a sensible default, so your CSS is never left broken. It also quietly tidies up spaces and stray characters, so whatever you type comes back out as a valid variable name.
 
 ## Use the header menu when you need help
 
-Up in the header you will find:
+Everything you need to find your way sits up in the header:
 
-- a theme toggle, for light and dark
-- a hamburger menu with:
-  - Info, a quick guide
-  - a link to our Reddit community
-  - a feedback dialog
+- a theme toggle, so you can work in light or dark, whichever is kinder to your eyes
+- a hamburger menu that opens onto:
+  - Info, a quick guide when you want a reminder
+  - a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
+  - a feedback dialog, for when you want to reach us directly
 
-The feedback dialog can attach a little diagnostic info and send it by email. That small detail helps us track down problems that only show up on certain devices.
+The feedback dialog can quietly attach a little diagnostic info and send it along by email. It is a small thing, but it lets us chase down the bugs that only ever show up on one particular device, the ones that are almost impossible to describe in words.
 
 ## When something feels off
 
-A few things tend to trip people up at first. If a result surprises you, check these:
+Everyone hits a small snag at the start, and it is almost always one of these. If a result surprises you, check here first:
 
-- no image loaded yet, so there is nothing to read colors from
-- no swatches selected, in the steps that expect a selection
-- expecting every extraction style to look alike. They are meant to feel different.
+- no image loaded yet, so there is simply nothing for the app to read colors from
+- no swatches selected, in the steps that are waiting for you to choose some
+- expecting every mode to look alike. They are built to feel different, so let them.
 
-Still stuck? Use the feedback option in the menu and tell us what you tried. The more you share, the faster we can help, and the better the app becomes for the next person who loves color as much as you do.
+Still stuck? Open the feedback option in the menu and tell us what you tried. Say as much as you can, even the parts that feel obvious. Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
