@@ -147,6 +147,6 @@ Prefer to reach us from inside the app? Click the hamburger menu (**☰**) in th
 
 And nothing gets sent behind your back. When you click **Send via Email**, your own email client opens first (as long as you have one, and you almost always do). You can read the message over, edit it, cut or add whatever you like, and only then send it.
 
-I have also started a Reddit community. It is brand new. At the moment I am writing this, I am its only member :) So if you drop by, you will be in very early, and very good, company.
+I have also started a Reddit community **[r/image2colors](https://www.reddit.com/r/image2colors)**.. It is brand new. At the moment I am writing this, I am its only member :) So if you drop by, you will be in very early, and very good, company.
 
 Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
