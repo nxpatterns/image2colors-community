@@ -2,6 +2,8 @@
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
+![Image2Colors v1.4.1](assets/v1.4.1.png)
+
 ## What Image2Colors does
 
 **[Image2Colors.com](https://www.image2colors.com)** looks at an image and pulls the colors out of it. From there you can copy a single color or export the whole palette in the format you need.
