@@ -14,7 +14,13 @@ And if you know more about color than about building apps, even better. We would
 
 ## How to start
 
-There are two easy ways in. Bring your own image, or use the demo image that already waits inside the app.
+There are two easy ways in. Bring your own image with the upload button <img src="assets/icons/upload.png" alt="Upload" height="18" />, or use the demo image that already waits inside the app.
+
+This is the demo image you begin with, a full sweep of hues fading through light and shadow, with a band of grays along the bottom. It is a friendly place to experiment before you reach for a photo of your own:
+
+<p align="center">
+  <img src="assets/demo.png" alt="The built-in demo image: a spectrum of hues fading into white, black, and a strip of grays" width="480" />
+</p>
 
 Either way, you can start playing right away: paint over the areas you care about with the brush, then click **Extract Colors**.
 
@@ -26,10 +32,10 @@ You do not have to mark anything. If you want the colors of the whole picture, j
 
 To make that easy, you have a few tools:
 
-- a brush to paint over the pixels you want
-- an eraser to take pixels back out
-- undo and redo, for when your hand slips
-- clear, to wipe the selection and start over
+- <img src="assets/icons/brush.png" alt="Brush" height="18" /> a **brush** to paint over the pixels you want
+- <img src="assets/icons/eraser.png" alt="Eraser" height="18" /> an **eraser** to take pixels back out
+- <img src="assets/icons/undo.png" alt="Undo" height="18" /> **undo** and <img src="assets/icons/redo.png" alt="Redo" height="18" /> **redo**, for when your hand slips
+- <img src="assets/icons/clear-last.png" alt="Clear last" height="18" /> **clear last** to drop only your most recent stroke, and <img src="assets/icons/clear-all.png" alt="Clear all" height="18" /> **clear all** to wipe the selection and start over
 
 If you mark nothing, the app uses the whole image. Your upload if you brought one, and the demo image if you did not.
 
@@ -63,28 +69,26 @@ Click **Extract Colors** and watch your swatches appear in the result panel. Not
 
 ## Copy and export your result
 
-Once your palette is on screen, there are really two things you might want: to grab a single color in a hurry, or to carry the whole set away with you. The app keeps those two apart with a small mode switch, marked by a leaf icon.
+Once your palette is on screen, there are really two things you might want: to grab a single color in a hurry, or to carry the whole set away with you. The app keeps those two apart with a small mode switch, marked by a sheet-of-paper icon.
 
-**Single copy** is the default, the single-leaf icon. Stay here when you just want one color. Click any swatch and its hex value jumps straight to your clipboard, with a little flash to confirm it landed.
+**Single copy** <img src="assets/icons/copy-single.png" alt="Single copy mode" height="18" /> is the default, the single-sheet icon. Stay here when you just want one color. Click any swatch and its hex value jumps straight to your clipboard, with a little flash to confirm it landed.
 
-Switch to **Multi copy**, the icon with several leaves, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
+Switch to **Multi copy** <img src="assets/icons/copy-multi.png" alt="Multi copy mode" height="18" />, the stacked-sheets icon, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
 
 As soon as you have two or more colors selected in Multi copy, a **Show selected** button appears. Press it and the grid narrows down to just your chosen colors, sitting side by side so you can feel how they work together. Press **Show all** to bring the full palette back. Nothing is lost along the way, you are only changing what you look at.
 
 When it is time to leave with your colors, you have two doors, and they behave a little differently on purpose.
 
-**Copy** is for pulling colors into your code right now. Click **Copy CSS** and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
+**Copy** is for pulling colors into your code right now. Click **Copy CSS** <img src="assets/icons/copy-css.png" alt="Copy CSS" height="18" /> and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
 
-**Export** is for saving the palette as a file, and export always takes the complete set of extracted colors, never just your selection. Pick the format that fits where the colors are headed:
+**Export**, on the other hand, is for saving the palette as a file, and export always takes the complete set of extracted colors, never just your selection. That is simply our default for now. If you would rather export only your selected colors, tell us; this is your tool, and the behavior is easy to change. Pick the format that fits where the colors are headed:
 
-- CSS, variables you can paste straight into a stylesheet
-- JSON, for code, scripts, and build tools
-- CSV, for spreadsheets, sorting, and quick sharing
-- PNG, a picture of the palette to drop into a doc or a chat
-- SVG, crisp swatches that stay sharp at any size, ready for design tools
-- PDF, a clean sheet to print or hand to a client
-
-This split, where copy follows your selection and export takes everything, is simply what felt natural to us. If enough of you would rather it worked another way, say so. It is your tool, and this is an easy thing to change.
+- <img src="assets/icons/format-css.png" alt="CSS" height="18" /> CSS, variables you can paste straight into a stylesheet
+- <img src="assets/icons/format-json.png" alt="JSON" height="18" /> JSON, for code, scripts, and build tools
+- <img src="assets/icons/format-csv.png" alt="CSV" height="18" /> CSV, for spreadsheets, sorting, and quick sharing
+- <img src="assets/icons/format-png.png" alt="PNG" height="18" /> PNG, a picture of the palette to drop into a doc or a chat
+- <img src="assets/icons/format-svg.png" alt="SVG" height="18" /> SVG, crisp swatches that stay sharp at any size, ready for design tools
+- <img src="assets/icons/format-pdf.png" alt="PDF" height="18" /> PDF, a clean sheet to print or hand to a client
 
 ### The CSS prefix
 
@@ -106,20 +110,22 @@ So the colors arrive already speaking your project's language, and there is noth
 
 Everything you need to find your way sits up in the header:
 
-- a theme toggle, so you can work in light or dark, whichever is kinder to your eyes
-- a hamburger menu that opens onto:
-  - Info, a quick guide when you want a reminder
-  - a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
-  - a feedback dialog, for when you want to reach us directly
+- a theme toggle (the **◐** button), so you can work in light or dark, whichever is kinder to your eyes
+- a hamburger menu (**☰**) that opens onto:
+  - <img src="assets/icons/info.png" alt="Info" height="18" /> Info, a quick guide when you want a reminder
+  - <img src="assets/icons/reddit.png" alt="Reddit" height="18" /> a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
+  - <img src="assets/icons/mail.png" alt="Feedback" height="18" /> a feedback dialog, for when you want to reach us directly
 
 The feedback dialog can quietly attach a little diagnostic info and send it along by email. It is a small thing, but it lets us chase down the bugs that only ever show up on one particular device, the ones that are almost impossible to describe in words.
 
-## When something feels off
+## Ideas, feedback, and a very small community
 
-Everyone hits a small snag at the start, and it is almost always one of these. If a result surprises you, check here first:
+Got an idea, or something you wish the app could do? Open a new issue on GitHub: [github.com/nxpatterns/image2colors-community/issues/new](https://github.com/nxpatterns/image2colors-community/issues/new).
 
-- no image loaded yet, so there is simply nothing for the app to read colors from
-- no swatches selected, in the steps that are waiting for you to choose some
-- expecting every mode to look alike. They are built to feel different, so let them.
+Prefer to reach us from inside the app? Click the hamburger menu (**☰**) in the top right and choose **Feedback**. That feedback matters more than you might think. We cannot possibly own every device out there, and this is a hobby project, not a company. I am not about to spend thousands of euros on professional cross-browser, cross-device, cross-operating-system testing tools. We solve our problems ourselves, and together, and I am here with advice and hands-on help whenever something breaks.
 
-Still stuck? Open the feedback option in the menu and tell us what you tried. Say as much as you can, even the parts that feel obvious. Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
+And nothing gets sent behind your back. When you click **Send via Email**, your own email client opens first (as long as you have one, and you almost always do). You can read the message over, edit it, cut or add whatever you like, and only then send it.
+
+I have also started a Reddit community. It is brand new. At the moment I am writing this, I am its only member :) So if you drop by, you will be in very early, and very good, company.
+
+Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
