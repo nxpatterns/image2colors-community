@@ -30,6 +30,10 @@ You do not have to mark anything. If you want the colors of the whole picture, j
 
 **[Image2Colors.com](https://www.image2colors.com)** began with a simple wish: we wanted to catch the colors of nature. And nature, it turns out, is shy. Its best colors often hide in a small corner of the frame, and reading the whole image tends to wash them out. So we gave you a way to point at what matters. A butterfly resting on a flower. A bird half-hidden in a tree. A single car in a gray street. Mark it, and you get the colors you actually came for.
 
+<p align="center">
+  <img src="assets/butterfly-on-a-flower.png" alt="A butterfly resting on a flower" width="480" />
+</p>
+
 To make that easy, you have a few tools:
 
 - <img src="assets/icons/brush.png" alt="Brush" height="18" /> a **brush** to paint over the pixels you want
