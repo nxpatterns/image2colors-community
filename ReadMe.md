@@ -53,7 +53,7 @@ That is why, when you press **Extract Colors** without having painted anything, 
 
 ## Choose how colors should be extracted
 
-Here is a fair question: **why three modes at all?**
+Here is a fair question: **why three modes at all** **[Image2Colors.com](https://www.image2colors.com)?**
 
 <p align="center">
   <img src="assets/extraction-mode-and-colors-count.png" alt="Extraction mode and colors count" width="480" />
@@ -150,3 +150,5 @@ And nothing gets sent behind your back. When you click **Send via Email**, your 
 I have also started a Reddit community **[r/image2colors](https://www.reddit.com/r/image2colors)**.. It is brand new. At the moment I am writing this, I am its only member :) So if you drop by, you will be in very early, and very good, company.
 
 Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
+
+**[Image2Colors.com](https://www.image2colors.com)**
