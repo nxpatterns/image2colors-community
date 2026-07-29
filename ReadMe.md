@@ -34,6 +34,10 @@ You do not have to mark anything. If you want the colors of the whole picture, j
   <img src="assets/butterfly-on-a-flower.png" alt="A butterfly resting on a flower" width="480" />
 </p>
 
+<p align="center">
+  <img src="assets/extracted-colors.png" alt="Extracted colors" width="480" />
+</p>
+
 To make that easy, you have a few tools:
 
 - <img src="assets/icons/brush.png" alt="Brush" height="18" /> a **brush** to paint over the pixels you want
@@ -48,6 +52,10 @@ That is why, when you press **Extract Colors** without having painted anything, 
 ## Choose how colors should be extracted
 
 Here is a fair question: **why three modes at all?**
+
+<p align="center">
+  <img src="assets/extraction-mode-and-colors-count.png" alt="Extraction mode and colors count" width="480" />
+</p>
 
 Because "the colors of an image" is not one single truth. It depends on what you are looking for. So we gave you three lenses, and each one answers a different question.
 
@@ -79,7 +87,14 @@ Once your palette is on screen, there are really two things you might want: to g
 
 Switch to **Multi copy** <img src="assets/icons/copy-multi.png" alt="Multi copy mode" height="18" />, the stacked-sheets icon, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
 
+<p align="center">
+  <img src="assets/select-colors-in-multi-copy-mode.png" alt="Select colors in multi copy mode" width="480" />
+</p>
+
 As soon as you have two or more colors selected in Multi copy, a **Show selected** button appears. Press it and the grid narrows down to just your chosen colors, sitting side by side so you can feel how they work together. Press **Show all** to bring the full palette back. Nothing is lost along the way, you are only changing what you look at.
+
+<p align="center">
+  <img src="assets/show-selected-colors-in-multi-copy-mode.png" alt="Show selected colors in multi copy mode" width="480" />
 
 When it is time to leave with your colors, you have two doors, and they behave a little differently on purpose.
 
