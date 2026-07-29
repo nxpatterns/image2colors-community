@@ -35,13 +35,25 @@ If you mark nothing, the app uses the whole image. Your upload if you brought on
 
 ## Choose how colors should be extracted
 
-Pick the style that fits your mood:
+Here is a fair question: **why three modes at all?**
 
-- Natural
-- Distinctive
-- Random
+Because "the colors of an image" is not one single truth. It depends on what you are looking for. So we gave you three lenses, and each one answers a different question.
 
-Then decide how many colors you want: 4, 6, 12, 24, 48, 64, 96, or 128.
+**Natural** answers: **what does this image actually feel like?** It reads the whole range of light and shadow and hands the colors back in the proportion they really appear. If a photo is mostly soft greens with a little sky, that is what you get, soft greens with a little sky. This is the mode for mood boards, for painters, for anyone who wants the honest atmosphere of a scene instead of a tidied-up version of it.
+
+**Distinctive** answers: **what are the truly different colors in here?** It pushes the results apart on purpose and drops the near-twins, so every swatch clearly earns its place. This is the one designers tend to reach for. When you need a palette where each color is its own decision, a base, an accent, a highlight that will not quietly collapse into its neighbor, start here.
+
+**Random** answers: **what might I not have thought of?** It picks real pixels instead of smoothing everything into averages, and it gives you a slightly different take each time you run it. Run it, look, run it again. If you build UI frameworks or design systems and you want unexpected but usable starting points, this is your playground. Reroll until something surprises you.
+
+None of them is more "correct" than the others. Send the same image through all three and you will feel the difference right away, and soon you will know which lens fits which job.
+
+Then decide how many colors you want:
+
+4, 6, 12, 24, 48, 64, 96, or 128.
+
+Small numbers keep things tight, a handful of colors you could build a brand or a set of buttons around. Larger numbers open the image up into a full spectrum, closer to design tokens, gradients, or a sampling sheet you can pick from later.
+
+There is no wrong choice here either. Fewer colors ask you to commit. More colors give you room to wander. And there is a reason the count matters to us: in later versions we want to generate palettes ready-made for frameworks like Angular Material (and others as well), which expect a certain number of colors and tokens. More on that soon.
 
 ## Generate and review your palette
 
