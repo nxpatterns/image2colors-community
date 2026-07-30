@@ -71,7 +71,7 @@ Reading the entire picture is a perfectly good way to work. We only tap you on t
 
 Sometimes the colors you want are all there, just a little too dark, a little too flat, or a little too washed out to read cleanly. So we gave you a gentle way to nudge the image itself, before a single color is pulled from it.
 
-Over on the right of the canvas toolbar sits a small brightness button. Click it and a little panel opens with three sliders:
+Over on the right of the canvas toolbar sits a small <img src="assets/icons/adjust.png" alt="Adjust brightness" width="32" height="32" align="top" style="margin: 0 4px;" /> adjust button. Click it and a little panel opens with three sliders:
 
 - **Brightness**, to lift a photo out of shadow, or to pull one back that is blown out
 - **Contrast**, to open up the gap between light and dark when everything sits too close together
