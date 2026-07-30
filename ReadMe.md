@@ -1,8 +1,10 @@
-# Image2Colors Community Guide
+# Image2Colors.com Community Guide
+
+> v1.4.2, last updated 2026-07-30, ~9AM Vienna time.
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
-![Image2Colors v1.4.1](assets/v1.4.1.png)
+![Image2Colors.com v1.4.1](assets/v1.4.1.png)
 
 ## What Image2Colors does
 
