@@ -204,3 +204,5 @@ I have also started a Reddit community **[r/image2colors](https://www.reddit.com
 Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
 
 **[Image2Colors.com](https://www.image2colors.com)**
+
+![alt text](assets/videos/image2colors-com-lighthouse.gif)
