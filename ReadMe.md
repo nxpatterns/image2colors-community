@@ -103,7 +103,7 @@ As soon as you have two or more colors selected in Multi copy, a **Show selected
 
 When it is time to leave with your colors, you have two doors, and they behave a little differently on purpose.
 
-**Copy** is for pulling colors into your code right now. Click **Copy CSS** <img src="assets/icons/copy-css.png" alt="Copy CSS" width="32" height="32" align="top" style="marging: 0 4px;" /> and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
+**Copy** is for pulling colors into your code right now. Click **COPY CSS** <img src="assets/icons/copy-css.png" alt="COPY CSS" width="32" height="32" align="top" style="marging: 0 4px;" /> and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
 
 **Export**, on the other hand, is for saving the palette as a file, and export always takes the complete set of extracted colors, never just your selection. That is simply our default for now. If you would rather export only your selected colors, tell us; this is your tool, and the behavior is easy to change. Pick the format that fits where the colors are headed:
 
