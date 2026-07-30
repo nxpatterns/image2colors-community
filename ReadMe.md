@@ -1,6 +1,6 @@
 # Image2Colors.com Community Guide
 
-> v1.4.2, last updated 2026-07-30, ~9AM Vienna time.
+> v1.5.0, last updated 2026-07-30, ~10:30AM Vienna time.
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
@@ -92,6 +92,19 @@ Then decide how many colors you want:
 Small numbers keep things tight, a handful of colors you could build a brand or a set of buttons around. Larger numbers open the image up into a full spectrum, closer to design tokens, gradients, or a sampling sheet you can pick from later.
 
 There is no wrong choice here either. Fewer colors ask you to commit. More colors give you room to wander. And there is a reason the count matters to us: in later versions we want to generate palettes ready-made for frameworks like Angular Material (and others as well), which expect a certain number of colors and tokens. More on that soon.
+
+### A little more control when you roll the dice
+
+Random has one more trick, and it only appears when you choose that mode. Two things quietly change.
+
+First, the count stays smaller. Where Natural and Distinctive happily go all the way up to 128, Random tops out at 16, so your choices become 4, 6, 12, or 16. There is a good reason for it. Random reaches for real pixels, and if an image is almost all one color, say a sky that is blue from edge to edge, asking for 128 would only hand you 128 blues you could never tell apart. Sixteen is plenty of room to be surprised without drowning in near-twins.
+
+Second, a **Sampling granularity** slider slides in just under the count. Think of it as how widely Random is allowed to look across the image before it picks:
+
+- **0** switches the grid off completely. Colors are drawn purely at random from anywhere in the picture, then simply sorted from light to dark. It is the wildest setting, the one that feels most like a lucky dip.
+- **10, 20, 50, 100, 250** lay an invisible grid over the image and take one color from each cell. The higher the number, the finer the grid, and the more evenly the colors are gathered from every corner instead of crowding wherever the picture happens to be busiest.
+
+We start you at **100**, a comfortable middle ground for most images. Nudge it down when you are hunting for happy accidents, nudge it up when you want the palette to read like a fair sweep of the whole frame. And as always with Random, reroll until something surprises you.
 
 ## Generate and review your palette
 
