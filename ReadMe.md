@@ -18,7 +18,7 @@ And if you know more about color than about building apps, even better. We would
 
 ## How to start
 
-There are two easy ways in. Bring your own image with the upload button <img src="assets/icons/upload.png" alt="Upload" width="18" height="18" align="middle" />, or use the demo image that already waits inside the app.
+There are two easy ways in. Bring your own image with the upload button <img src="assets/icons/upload.png" alt="Upload" width="18" height="18" align="top" style="margin: 3px" />, or use the demo image that already waits inside the app.
 
 This is the demo image you begin with, a full sweep of hues fading through light and shadow, with a band of grays along the bottom. It is a friendly place to experiment before you reach for a photo of your own:
 
@@ -44,10 +44,10 @@ You do not have to mark anything. If you want the colors of the whole picture, j
 
 To make that easy, you have a few tools:
 
-- <img src="assets/icons/brush.png" alt="Brush" width="18" height="18" align="middle" /> a **brush** to paint over the pixels you want
-- <img src="assets/icons/eraser.png" alt="Eraser" width="18" height="18" align="middle" /> an **eraser** to take pixels back out
-- <img src="assets/icons/undo.png" alt="Undo" width="18" height="18" align="middle" /> **undo** and <img src="assets/icons/redo.png" alt="Redo" width="18" height="18" align="middle" /> **redo**, for when your hand slips
-- <img src="assets/icons/clear-last.png" alt="Clear last" width="18" height="18" align="middle" /> **clear last** to drop only your most recent stroke, and <img src="assets/icons/clear-all.png" alt="Clear all" width="18" height="18" align="middle" /> **clear all** to wipe the selection and start over
+- <img src="assets/icons/brush.png" alt="Brush" width="18" height="18" align="top" style="margin: 3px" /> a **brush** to paint over the pixels you want
+- <img src="assets/icons/eraser.png" alt="Eraser" width="18" height="18" align="top" style="margin: 3px" /> an **eraser** to take pixels back out
+- <img src="assets/icons/undo.png" alt="Undo" width="18" height="18" align="top" style="margin: 3px" /> **undo** and <img src="assets/icons/redo.png" alt="Redo" width="18" height="18" align="top" style="margin: 3px" /> **redo**, for when your hand slips
+- <img src="assets/icons/clear-last.png" alt="Clear last" width="18" height="18" align="top" style="margin: 3px" /> **clear last** to drop only your most recent stroke, and <img src="assets/icons/clear-all.png" alt="Clear all" width="18" height="18" align="top" style="margin: 3px" /> **clear all** to wipe the selection and start over
 
 If you mark nothing, the app uses the whole image. Your upload if you brought one, and the demo image if you did not.
 
@@ -87,9 +87,9 @@ Click **Extract Colors** and watch your swatches appear in the result panel. Not
 
 Once your palette is on screen, there are really two things you might want: to grab a single color in a hurry, or to carry the whole set away with you. The app keeps those two apart with a small mode switch, marked by a sheet-of-paper icon.
 
-**Single copy** <img src="assets/icons/copy-single.png" alt="Single copy mode" width="18" height="18" align="middle" /> is the default, the single-sheet icon. Stay here when you just want one color. Click any swatch and its hex value jumps straight to your clipboard, with a little flash to confirm it landed.
+**Single copy** <img src="assets/icons/copy-single.png" alt="Single copy mode" width="18" height="18" align="top" style="margin: 3px" /> is the default, the single-sheet icon. Stay here when you just want one color. Click any swatch and its hex value jumps straight to your clipboard, with a little flash to confirm it landed.
 
-Switch to **Multi copy** <img src="assets/icons/copy-multi.png" alt="Multi copy mode" width="18" height="18" align="middle" />, the stacked-sheets icon, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
+Switch to **Multi copy** <img src="assets/icons/copy-multi.png" alt="Multi copy mode" width="18" height="18" align="top" style="margin: 3px" />, the stacked-sheets icon, when you want to gather more than one. Now a click no longer copies. Instead it selects, so you can pick out exactly the colors you want and leave the rest behind.
 
 <p align="center">
   <img src="assets/select-colors-in-multi-copy-mode.png" alt="Select colors in multi copy mode" width="480" />
@@ -103,16 +103,16 @@ As soon as you have two or more colors selected in Multi copy, a **Show selected
 
 When it is time to leave with your colors, you have two doors, and they behave a little differently on purpose.
 
-**Copy** is for pulling colors into your code right now. Click **Copy CSS** <img src="assets/icons/copy-css.png" alt="Copy CSS" width="18" height="18" align="middle" /> and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
+**Copy** is for pulling colors into your code right now. Click **Copy CSS** <img src="assets/icons/copy-css.png" alt="Copy CSS" width="18" height="18" align="top" style="margin: 3px" /> and they land on your clipboard as ready-to-use CSS variables. In Single copy that is the whole palette; in Multi copy it is only the colors you selected, so you can hand-pick a small set without taking everything with you. (If you are in Multi copy and have not selected anything yet, the app will gently ask you to choose a color first.)
 
 **Export**, on the other hand, is for saving the palette as a file, and export always takes the complete set of extracted colors, never just your selection. That is simply our default for now. If you would rather export only your selected colors, tell us; this is your tool, and the behavior is easy to change. Pick the format that fits where the colors are headed:
 
-- <img src="assets/icons/format-css.png" alt="CSS" width="18" height="18" align="middle" /> CSS, variables you can paste straight into a stylesheet
-- <img src="assets/icons/format-json.png" alt="JSON" width="18" height="18" align="middle" /> JSON, for code, scripts, and build tools
-- <img src="assets/icons/format-csv.png" alt="CSV" width="18" height="18" align="middle" /> CSV, for spreadsheets, sorting, and quick sharing
-- <img src="assets/icons/format-png.png" alt="PNG" width="18" height="18" align="middle" /> PNG, a picture of the palette to drop into a doc or a chat
-- <img src="assets/icons/format-svg.png" alt="SVG" width="18" height="18" align="middle" /> SVG, crisp swatches that stay sharp at any size, ready for design tools
-- <img src="assets/icons/format-pdf.png" alt="PDF" width="18" height="18" align="middle" /> PDF, a clean sheet to print or hand to a client
+- <img src="assets/icons/format-css.png" alt="CSS" width="18" height="18" align="top" style="margin: 3px" /> CSS, variables you can paste straight into a stylesheet
+- <img src="assets/icons/format-json.png" alt="JSON" width="18" height="18" align="top" style="margin: 3px" /> JSON, for code, scripts, and build tools
+- <img src="assets/icons/format-csv.png" alt="CSV" width="18" height="18" align="top" style="margin: 3px" /> CSV, for spreadsheets, sorting, and quick sharing
+- <img src="assets/icons/format-png.png" alt="PNG" width="18" height="18" align="top" style="margin: 3px" /> PNG, a picture of the palette to drop into a doc or a chat
+- <img src="assets/icons/format-svg.png" alt="SVG" width="18" height="18" align="top" style="margin: 3px" /> SVG, crisp swatches that stay sharp at any size, ready for design tools
+- <img src="assets/icons/format-pdf.png" alt="PDF" width="18" height="18" align="top" style="margin: 3px" /> PDF, a clean sheet to print or hand to a client
 
 ### The CSS prefix
 
@@ -136,9 +136,9 @@ Everything you need to find your way sits up in the header:
 
 - a theme toggle (the **◐** button), so you can work in light or dark, whichever is kinder to your eyes
 - a hamburger menu (**☰**) that opens onto:
-  - <img src="assets/icons/info.png" alt="Info" width="18" height="18" align="middle" /> Info, a quick guide when you want a reminder
-  - <img src="assets/icons/reddit.png" alt="Reddit" width="18" height="18" align="middle" /> a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
-  - <img src="assets/icons/mail.png" alt="Feedback" width="18" height="18" align="middle" /> a feedback dialog, for when you want to reach us directly
+  - <img src="assets/icons/info.png" alt="Info" width="18" height="18" align="top" style="margin: 3px" /> Info, a quick guide when you want a reminder
+  - <img src="assets/icons/reddit.png" alt="Reddit" width="18" height="18" align="top" style="margin: 3px" /> a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
+  - <img src="assets/icons/mail.png" alt="Feedback" width="18" height="18" align="top" style="margin: 3px" /> a feedback dialog, for when you want to reach us directly
 
 The feedback dialog can quietly attach a little diagnostic info and send it along by email. It is a small thing, but it lets us chase down the bugs that only ever show up on one particular device, the ones that are almost impossible to describe in words.
 
