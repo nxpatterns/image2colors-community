@@ -51,7 +51,13 @@ To make that easy, you have a few tools:
 
 If you mark nothing, the app uses the whole image. Your upload if you brought one, and the demo image if you did not.
 
-That is why, when you press **Extract Colors** without having painted anything, a small note slides in to let you know the whole image is going into the mix, every last pixel. It is not a warning, and it is not a mistake. Reading the entire picture is a perfectly good way to work. We only tap you on the shoulder to say the other door is open too: paint one or more areas, and from then on only the pixels inside them, and their colors, are counted.
+That is why, when you press **Extract Colors** without having painted anything, a small note slides in to let you know the whole image is going into the mix, every last pixel. It is not a warning, and it is not a mistake.
+
+<p align="center">
+  <img src="assets/no-selection-made.png" alt="No selection made" width="480" />
+</p>
+
+Reading the entire picture is a perfectly good way to work. We only tap you on the shoulder to say the other door is open too: paint one or more areas, and from then on only the pixels inside them, and their colors, are counted.
 
 ## Choose how colors should be extracted
 
