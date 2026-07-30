@@ -59,6 +59,14 @@ That is why, when you press **Extract Colors** without having painted anything, 
 
 Reading the entire picture is a perfectly good way to work. We only tap you on the shoulder to say the other door is open too: paint one or more areas, and from then on only the pixels inside them, and their colors, are counted.
 
+<p align="center">
+  <img src="assets/using-demo-image.png" alt="Using demo image" width="480" />
+</p>
+
+<p align="center">
+  <img src="assets/extraction-from-demo-image.png" alt="Extraction from demo image" width="480" />
+</p>
+
 ## Choose how colors should be extracted
 
 Here is a fair question: **why three modes at all** **[Image2Colors.com](https://www.image2colors.com)?**
