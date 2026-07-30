@@ -1,6 +1,6 @@
 # Image2Colors.com Community Guide
 
-> v1.5.0, last updated 2026-07-30, ~10:30AM Vienna time.
+> v1.5.0, last updated 2026-07-30, ~11AM Vienna time.
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
@@ -79,25 +79,27 @@ Because "the colors of an image" is not one single truth. It depends on what you
 
 **Natural** answers: **what does this image actually feel like?** It reads the whole range of light and shadow and hands the colors back in the proportion they really appear. If a photo is mostly soft greens with a little sky, that is what you get, soft greens with a little sky. This is the mode for mood boards, for painters, for anyone who wants the honest atmosphere of a scene instead of a tidied-up version of it.
 
+<p align="center">
+  <img src="assets/natural-6.png" alt="Natural mode example" width="480" />
+</p>
+
 **Distinctive** answers: **what are the truly different colors in here?** It pushes the results apart on purpose and drops the near-twins, so every swatch clearly earns its place. This is the one designers tend to reach for. When you need a palette where each color is its own decision, a base, an accent, a highlight that will not quietly collapse into its neighbor, start here.
 
-**Random** answers: **what might I not have thought of?** It picks real pixels instead of smoothing everything into averages, and it gives you a slightly different take each time you run it. Run it, look, run it again. If you build UI frameworks or design systems and you want unexpected but usable starting points, this is your playground. Reroll until something surprises you.
+<p align="center">
+  <img src="assets/distinctive-6.png" alt="Distinctive mode example" width="480" />
+</p>
 
-None of them is more "correct" than the others. Send the same image through all three and you will feel the difference right away, and soon you will know which lens fits which job.
-
-Then decide how many colors you want:
-
-4, 6, 12, 24, 48, 64, 96, or 128.
-
-Small numbers keep things tight, a handful of colors you could build a brand or a set of buttons around. Larger numbers open the image up into a full spectrum, closer to design tokens, gradients, or a sampling sheet you can pick from later.
-
-There is no wrong choice here either. Fewer colors ask you to commit. More colors give you room to wander. And there is a reason the count matters to us: in later versions we want to generate palettes ready-made for frameworks like Angular Material (and others as well), which expect a certain number of colors and tokens. More on that soon.
-
-### A little more control when you roll the dice
+**Random** answers: **what might I not have thought of?**
 
 Random has one more trick, and it only appears when you choose that mode. Two things quietly change.
 
-First, the count stays smaller. Where Natural and Distinctive happily go all the way up to 128, Random tops out at 16, so your choices become 4, 6, 12, or 16. There is a good reason for it. Random reaches for real pixels, and if an image is almost all one color, say a sky that is blue from edge to edge, asking for 128 would only hand you 128 blues you could never tell apart. Sixteen is plenty of room to be surprised without drowning in near-twins.
+First, the count stays smaller. Where Natural and Distinctive happily go all the way up to 128, Random tops out at 16, so your choices become 4, 6, 12, or 16.
+
+There is a good reason for it. Random reaches for real pixels, and if an image is almost all one color, say a sky that is blue from edge to edge, asking for 128 would only hand you 128 blues you could never tell apart. Sixteen is plenty of room to be surprised without drowning in near-twins.
+
+<p align="center">
+  <img src="assets/random-sampling.png" alt="Random sampling" width="480" />
+</p>
 
 Second, a **Sampling granularity** slider slides in just under the count. Think of it as how widely Random is allowed to look across the image before it picks:
 
