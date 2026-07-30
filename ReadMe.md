@@ -1,6 +1,6 @@
 # Image2Colors.com Community Guide
 
-> v1.5.0, last updated 2026-07-30, ~11AM Vienna time.
+> v1.6.0, last updated 2026-07-30, ~5PM Vienna time.
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
@@ -66,6 +66,26 @@ Reading the entire picture is a perfectly good way to work. We only tap you on t
 <p align="center">
   <img src="assets/extraction-from-demo-image.png" alt="Extraction from demo image" width="480" />
 </p>
+
+## Adjust the image before you extract
+
+Sometimes the colors you want are all there, just a little too dark, a little too flat, or a little too washed out to read cleanly. So we gave you a gentle way to nudge the image itself, before a single color is pulled from it.
+
+Over on the right of the canvas toolbar sits a small brightness button. Click it and a little panel opens with three sliders:
+
+- **Brightness**, to lift a photo out of shadow, or to pull one back that is blown out
+- **Contrast**, to open up the gap between light and dark when everything sits too close together
+- **Saturation**, to let the colors sing a little louder, or to calm them down toward gray
+
+<p align="center">
+  <img src="assets/image-adjustments.png" alt="Image adjustments" width="480" />
+</p>
+
+On a wide screen the panel appears as a small popover right next to the button. On a phone or tablet it slides up from the bottom as a sheet. Either way the image stays in full view the whole time, so you can watch the colors shift as you move each slider and stop exactly where it looks right.
+
+Here is the part that matters most: these adjustments are not just a preview. What you see is what gets read. When you press **Extract Colors**, the app pulls its colors from the adjusted image, not the original, so the palette matches the picture in front of you.
+
+Changed your mind? A **Reset** brings every slider back to the middle and the original image straight back with it. And each time you load a new image, the sliders start fresh at neutral, so nothing quietly carries over from the picture before.
 
 ## Choose how colors should be extracted
 
