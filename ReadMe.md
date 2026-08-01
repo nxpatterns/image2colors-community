@@ -12,7 +12,7 @@ Welcome, and thank you for stopping by. This page walks you through **[Image2Col
 
 That is where it starts, but not where it ends. The app keeps growing, and color extraction is only the first chapter.
 
-We have more in mind. If you have an idea, a wish, or something that quietly annoyed you, we truly want to hear it. Open an issue at [github.com/nxpatterns/image2colors-community/issues/new](https://github.com/nxpatterns/image2colors-community/issues/new), or come say hello on Reddit at [reddit.com/r/image2colors](https://www.reddit.com/r/image2colors).
+We have more in mind. If you have an idea, a wish, or something that quietly annoyed you, we truly want to hear it. Open an issue at [github.com/nxpatterns/image2colors-community/issues/new](https://github.com/nxpatterns/image2colors-community/issues/new).
 
 And if you know more about color than about building apps, even better. We would love to learn from you, and maybe build something together.
 
@@ -186,7 +186,6 @@ Everything you need to find your way sits up in the header:
 - a theme toggle (the **◐** button), so you can work in light or dark, whichever is kinder to your eyes
 - a hamburger menu (**☰**) that opens onto:
   - <img src="assets/icons/info.png" alt="Info" width="32" height="32" align="top" style="marging: 0 4px;" /> Info, a quick guide when you want a reminder
-  - <img src="assets/icons/reddit.png" alt="Reddit" width="32" height="32" align="top" style="marging: 0 4px;" /> a door into our [Reddit community](https://www.reddit.com/r/image2colors/), where the color people gather
   - <img src="assets/icons/mail.png" alt="Feedback" width="32" height="32" align="top" style="marging: 0 4px;" /> a feedback dialog, for when you want to reach us directly
 
 The feedback dialog can quietly attach a little diagnostic info and send it along by email. It is a small thing, but it lets us chase down the bugs that only ever show up on one particular device, the ones that are almost impossible to describe in words.
@@ -198,8 +197,6 @@ Got an idea, or something you wish the app could do? Open a new issue on GitHub:
 Prefer to reach us from inside the app? Click the hamburger menu (**☰**) in the top right and choose **Feedback**. That feedback matters more than you might think. We cannot possibly own every device out there, and this is a hobby project, not a company. I am not about to spend thousands of euros on professional cross-browser, cross-device, cross-operating-system testing tools. We solve our problems ourselves, and together, and I am here with advice and hands-on help whenever something breaks.
 
 And nothing gets sent behind your back. When you click **Send via Email**, your own email client opens first (as long as you have one, and you almost always do). You can read the message over, edit it, cut or add whatever you like, and only then send it.
-
-I have also started a Reddit community **[r/image2colors](https://www.reddit.com/r/image2colors)**. It is brand new. At the moment I am writing this, I am its only member :) So if you drop by, you will be in very early, and very good, company.
 
 Every message you send makes the app a little kinder to the next person who loves color as much as you do. And who knows, that person might one day be here helping us build it.
 
