@@ -1,6 +1,6 @@
 # Image2Colors.com Community Guide
 
-> v1.6.7, last updated 2026-08-01, ~2PM Vienna time.
+> v1.7.0, last updated 2026-08-04, ~4PM Vienna time.
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
@@ -20,10 +20,10 @@ And if you know more about color than about building apps, even better. We would
 
 There are two easy ways in. Bring your own image with the upload button <img src="assets/icons/upload.png" alt="Upload" width="32" height="32" align="top" style="marging: 0 4px;" />, or use the demo image that already waits inside the app.
 
-This is the demo image you begin with, a full sweep of hues fading through light and shadow, with a band of grays along the bottom. It is a friendly place to experiment before you reach for a photo of your own:
+This is the demo image you begin with: a quiet ocean at dusk, violet sky melting into a pink horizon, a soft sun over layered waves. Plenty of real color to play with before you reach for a photo of your own:
 
 <p align="center">
-  <img src="assets/demo.png" alt="The built-in demo image: a spectrum of hues fading into white, black, and a strip of grays" width="480" />
+  <img src="assets/demo.png" alt="The built-in demo image: an ocean at dusk with a violet-to-pink sky, soft sun, and layered waves" width="480" />
 </p>
 
 Either way, you can start playing right away: paint over the areas you care about with the brush, then click **Extract Colors**.
@@ -183,7 +183,7 @@ So the colors arrive already speaking your project's language, and there is noth
 
 Everything you need to find your way sits up in the header:
 
-- a theme toggle (the **◐** button), so you can work in light or dark, whichever is kinder to your eyes
+- a theme toggle (the **◐** button), so you can work in light or dark, whichever is kinder to your eyes. Dark mode got a fresh pass in this release: surfaces, selection chips, the upload zone, and a few small controls sit a little cleaner now, without the old rainbow of selected colors fighting for attention
 - a hamburger menu (**☰**) that opens onto:
   - <img src="assets/icons/info.png" alt="Info" width="32" height="32" align="top" style="marging: 0 4px;" /> Info, a quick guide when you want a reminder
   - <img src="assets/icons/mail.png" alt="Feedback" width="32" height="32" align="top" style="marging: 0 4px;" /> a feedback dialog, for when you want to reach us directly
