@@ -1,6 +1,8 @@
 # Image2Colors.com Community Guide
 
-> v1.7.0, last updated 2026-08-04, ~4PM Vienna time.
+> v1.7.2, last updated 2026-08-05, ~10AM Vienna time.
+>
+> Curious what is happening under the hood? The technical side-stories live in [docs/new](docs/new).
 
 Welcome, and thank you for stopping by. This page walks you through **[Image2Colors.com](https://www.image2colors.com)**, even if this is your very first visit. It only takes a few minutes.
 
